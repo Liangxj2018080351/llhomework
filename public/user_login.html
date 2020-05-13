@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/together.js"></script>
+    <link rel="stylesheet" href="./css/together.css">
+    <title>登录</title>
+</head>
+
+<body>
+    <div class="user_top">
+        <div class="user_frist">
+            <ul>
+                <li>中国</li>
+                <li>爱马仕专卖店</li>
+                <li>联系我们</li>
+            </ul>
+        </div>
+        <div class="user_second">
+            <ul>
+                <li>
+                    <button style="float: left;">
+                        <img src="images/user_4.png" alt="" class="catalog">
+                        <span style="top: 20px;line-height: 80px;">目录</span>
+                    </button>
+                </li>
+                <li>
+                    <button style="float: right;">
+                        <img src="images/user_1.png" alt="" style="width: 30px;position: relative;top: 8px;">
+                        <span style="margin-right:120px;line-height: 80px;">购物袋</span>
+                    </button>
+                </li>
+                <li>
+                    <button style="float: right;">
+                        <img src="images/user_2.png" alt="" style="width: 30px;position: relative;top:5px;">
+                        <span style="line-height: 80px;">
+                            <a href="user_reg.html" style="color: black;text-decoration: none;">注册</a>
+                        </span>
+                    </button>
+                </li>
+            </ul>
+            <p style="text-align: center;">
+              <a href="./product_index.html">  <img src="images/user_3.jpg" alt="" style="width: 110px;margin-top: -13px;"></a>
+            </p>
+        </div>
+    </div>
+    <div class="user_contents">
+        <div class="user_content1">
+            <span style="color: #444444;font-size: 30px;top: 40px;position: relative;">登录账户</span>
+            <form method="post" action="/user/login">
+                <div class="user_land">
+                    <ul>
+                        <li>
+                            <span style="font-size: 20px;line-height: 10px;color: #444444;">登录信息</span>
+                        </li>
+                        <li>
+                            <span style="font-size: 13px;float: right;color: #444444;">*必填项目</span>
+                        </li>
+                    </ul>
+                </div>
+                <hr style="margin-top: 4px;">
+                <div class="mobile">
+                    <div class="phone">
+                        <p>手机号码*</p>
+                        <div style="width: 80px;height: 40px;background-color: white;float: left;margin-top: 10px;border: 1px solid #e5e5e5;">
+                            <span style="margin-left: 19px;">+86</span>
+                        </div>
+                        <div>
+                            <input type="text" class="number" id="name" name="uname">
+                        </div>
+
+                    </div>
+                    <div class="password">
+                        <span>密码*</span>
+                        <span style="float: right;margin: 0px;cursor:pointer;" id="dj">
+                            显示
+                        </span>
+                        <input type="password" id="mm" name="upwd">
+                        <span style="color: #444444;font-size: 12px;top: -6px;position: relative;">至少8个字符</span>
+                    </div>
+                    <div class="anniu">
+                        <button type="submit" style="cursor:pointer;" id="denlu">登录账户</button>
+                    </div>
+                    <div style="width: 940px;height: 35px;margin: auto;"></div>
+                    <ul>
+                        <li>
+                            通过您的帐户，将可以：
+                        </li>
+                        <li>
+                            查看购物袋
+                        </li>
+                        <li>
+                            查看您的所有订单和下载销售单据
+                        </li>
+                        <li>
+                            管理您的地址簿，以方便日后订购
+                        </li>
+                        <li>
+                            更新您的个人资料
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer1">
+            <dl>
+                <dt>需要帮助么</dt>
+                <dd>您或许可以在<a href="">常见问题</a>中找到答案。</dd>
+                <dd>也可以联系我们</dd>
+                <br>
+                <dd><a href="">客服中心 400 090 6610</a></dd>
+                <dd>周一至周日：10点-22点</dd>
+            </dl>
+            <dl>
+                <dt>查询附近的专卖店</dt>
+                <dd><a href="">爱马仕专卖店</a></dd>
+                <br>
+                <dd>电子营业执照</dd>
+                <dd><a href="">点击查看</a></dd>
+            </dl>
+        </div>
+        <div class="footer2">
+            <hr>
+            <dl>
+                <dt>及时得到最新资讯</dt>
+                <dd>订阅爱马仕电子报，探索我们的故事、产品和每一次惊喜。</dd>
+
+            </dl>
+            <br>
+            <button><a href="">订阅</a></button>
+        </div>
+        <div class="footer3">
+            <dl>
+                <dt>服务</dt>
+                <dd><a href="">联系我们</a></dd>
+                <dd><a href="">常见问题</a></dd>
+                <dd><a href="">爱马仕专卖店</a></dd>
+                <dd><a href="">礼物</a></dd>
+                <dd><a href="">Made to measure</a></dd>
+
+            </dl>
+            <dl>
+                <dt>购物帮助</dt>
+                <dd><a href="">购物</a></dd>
+                <dd><a href="">付款</a></dd>
+                <dd><a href="">配送</a></dd>
+                <dd><a href="">专卖店取货</a></dd>
+                <dd><a href="">物流查询</a></dd>
+                <dd><a href="">换货及退货</a></dd>
+
+            </dl>
+            <dl>
+                <dt>爱马仕品牌</dt>
+                <dd><a href="">可持续发展</a></dd>
+                <dd><a href="">加入爱马仕</a></dd>
+                <dd><a href="">财务通报</a></dd>
+                <dd><a href="">爱马仕基金会</a></dd>
+                <dd><a href="">集团旗下其他品牌</a></dd>
+            </dl>
+            <dl>
+                <dt>法律信息</dt>
+                <dd><a href="">法律条款</a></dd>
+                <dd><a href="">隐私政策</a></dd>
+                <dd><a href="">法律声明</a></dd>
+                <dd><a href="">BCR</a></dd>
+                <dd><a href="">电子营业执照</a></dd>
+            </dl>
+        </div>
+        <div class="footer4">
+            <hr>
+            <p>仅作期末作业，不涉及商用&copy; 版权所有 2020
+                <p>
+                    <a href=""><img src="./images/shoppingcart_wechat.jpg" alt="" class="wechat"></a>
+                    <a href=""><img src="./images/shoppingcart_weibo.jpg" alt="" class="weibo"></a>
+
+        </div>
+        <div class="footer5">
+            <p>
+                <img src="./images/shoppingcart_29.jpg" alt="">
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>

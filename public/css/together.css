@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3eee7;
+}
+
+.user_top {
+    background-color: #f6f1eb;
+    height: 120px;
+}
+
+.user_frist {
+    height: 40px;
+    margin-right: 100px;
+}
+
+.user_frist ul {
+    list-style: none;
+    float: right;
+    position: relative;
+    top: 20%;
+}
+
+.user_frist li {
+    margin-right: 20px;
+    display: inline;
+    font-size: 11px;
+}
+
+.user_second {
+    height: 80px;
+    /* background-color: black; */
+}
+
+.user_second ul {
+    list-style: none;
+}
+
+.user_second li {
+    display: inline;
+    margin-left: 85px;
+}
+
+.user_second ul li button {
+    background: none;
+    border: none;
+    outline: none
+}
+
+.user_second .catalog {
+    width: 30px;
+    height: 30px;
+    margin-left: 88px;
+    position: relative;
+    top: 10px;
+}
+
+.user_second span {
+    margin-right: 90px;
+    font-size: 14px;
+}
+
+.user_content {
+    width: 1040px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    /* height: 480px; */
+}
+
+.user_content1 {
+    width: 940px;
+    margin: auto;
+    /* background-color: yellow; */
+    /* position: relative;
+    top: 40px; */
+    /* height: 480px; */
+}
+
+.user_land ul {
+    list-style: none;
+    margin-top: 100px;
+}
+
+.user_land li {
+    display: inline;
+}
+
+.user_content .mobile {
+    line-height: 37px;
+}
+
+.user_content .mobile p {
+    line-height: 20px;
+}
+
+.user_content .phone p {
+    font-size: 15px;
+    margin-top: 18px;
+    color: #696969;
+}
+
+.user_content input {
+    outline: none;
+    border: 1px solid #e5e5e5;
+    /* background-color: transparent; */
+    font-size: 17px;
+}
+
+.user_content .number {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.user_content .yanzh input {
+    width: 230px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.user_content .yanzh p {
+    font-size: 15px;
+    margin-top: 18px;
+    color: #696969;
+}
+
+.user_content .password input {
+    width: 938px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.user_content .password span {
+    font-size: 15px;
+    margin-top: 18px;
+    color: #696969;
+    position: relative;
+    top: 10px;
+}
+.user_content .password span a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #696969;
+}
+.user_content .email p{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #696969;
+}
+.user_content .email input{
+    width: 938px;
+    height: 40px;
+    margin-top: 10px;
+}
+.user_content .mobile button {
+    width: 500px;
+    height: 50px;
+    background-color: #444444;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 190px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.user_contents .mobile {
+    line-height: 37px;
+}
+
+.user_contents .mobile p {
+    line-height: 20px;
+}
+
+.user_contents .phone p {
+    font-size: 15px;
+    margin-top: 18px;
+    color: #696969;
+}
+
+.user_contents input {
+    outline: none;
+    border: 1px solid #e5e5e5;
+    /* background-color: transparent; */
+    font-size: 17px;
+}
+
+.user_contents .number {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.user_contents .yanzh input {
+    width: 230px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.user_contents .yanzh p {
+    font-size: 15px;
+    margin-top: 18px;
+    color: #696969;
+}
+
+.user_contents .password input {
+    width: 938px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.user_contents .password span {
+    font-size: 15px;
+    margin-top: 18px;
+    color: #696969;
+    position: relative;
+    top: 10px;
+}
+.user_contents .password span a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #696969;
+}
+
+.user_contents .mobile button {
+    width: 500px;
+    height: 50px;
+    background-color: #444444;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 190px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.user_contents {
+    width: 1040px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    /* height: 640px; */
+}
+
+.user_contents .mobile ul {
+    font-size: 12px;
+    line-height: 25px;
+    /* margin-top: 40px; */
+}
+
+
+/* 底部开始 */
+
+.footer {
+    background-color: white;
+    height: 1100px;
+    color: #666;
+    font: 12px/180% Arial, Helvetica, sans-serif, "新宋体";
+    background-color: #fdfbf6;
+    margin-top: 60px;
+}
+
+.footer a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer1 {
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.footer1 dl {
+    float: left;
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 350px;
+    font-size: 14px;
+}
+
+.footer1 dl dt {
+    font-size: 20px;
+    font-style: inherit;
+}
+
+.footer1 dl dd {
+    margin-top: 8px;
+}
+
+.footer2 {
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+
+.footer2 hr {
+    align-self: auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+.footer2 dl {
+    float: left;
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+.footer2 dl dt {
+    font-size: 22px;
+    font-style: inherit;
+}
+
+.footer2 dl dd {
+    margin-top: 8px;
+}
+
+.footer2 button {
+    position: relative;
+    width: 280px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    height: 50px;
+    margin-left: -300px;
+    margin-top: 80px;
+    float: left;
+}
+
+.footer2 button a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer3 {
+    height: 300px;
+    position: relative;
+}
+
+.footer3 dl {
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 250px;
+}
+
+.footer3 dl dt {
+    font-size: 18px;
+    font-style: inherit;
+}
+
+.footer3 dl dd {
+    margin-top: 5px;
+}
+
+.footer3 dl dd a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.footer4 {
+    height: 100px;
+    position: relative;
+}
+
+.footer4 hr {
+    position: relative;
+    margin-top: 50px;
+}
+
+.footer4 p {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.wechat {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: 180px;
+    margin-top: -70px;
+}
+
+.weibo {
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-right: 120px;
+    margin-top: -70px;
+}
+
+.footer5 {
+    height: 100px;
+    position: relative;
+}
+
+.footer5 p {
+    text-align: center;
+}
+
+.footer5 p img {
+    width: 110px;
+    height: 100px;
+    margin-left: 250px;
+}
